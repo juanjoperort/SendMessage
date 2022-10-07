@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SendMessage</string>
+    <string name="etMessageText" />
+    <string name="etMessageHint">Write a message ...</string>
+    <string name="btnSendText">SEND</string>
+    <string name="etUserHint">Insert your name</string>
+    <string name="tvUserHint">The user</string>
+    <string name="tvMessageHint">Has written the message</string>
+    <string name="imImageView">Image showing two messages</string>
+</resources>

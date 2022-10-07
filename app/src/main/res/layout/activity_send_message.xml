@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.SendMessageActivity">
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/etUserMarginTop"
+        android:autofillHints=""
+        android:hint="@string/etUserHint"
+        android:inputType="text"
+        android:minHeight="@dimen/etUserminHeight"
+        android:textColorHint="@color/etUserColorHint" />
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/etMessageMarginTop"
+        android:autofillHints=""
+        android:hint="@string/etMessageHint"
+        android:inputType="text"
+        android:minHeight="@dimen/etMessageminHeight"
+        android:text="@string/etMessageText"
+        android:textColorHint="@color/etMessageColorHint" />
+
+    <Button
+        android:onClick="sendMessage"
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/btnSendMessageMarginTop"
+        android:text="@string/btnSendText"
+        tools:ignore="OnClick" />
+
+</LinearLayout>

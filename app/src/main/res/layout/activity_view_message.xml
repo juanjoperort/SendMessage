@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.ViewMessageActivity">
+
+    <TextView
+        android:id="@+id/tvUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tvUserMarginTop"
+        android:text="@string/tvUserHint"
+        android:minHeight="@dimen/tvUserMinHeight" />
+
+    <TextView
+        android:id="@+id/tvUserView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tvUserViewMarginTop"
+        android:minHeight="@dimen/tvUserViewMinHeight" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tvMessageMarginTop"
+        android:text="@string/tvMessageHint"
+        android:minHeight="@dimen/tvMessageMinHeight" />
+
+    <TextView
+        android:id="@+id/tvMessageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tvMessageViewMarginTop"
+        android:minHeight="@dimen/tvMessageViewMinHeight" />
+
+    <ImageView
+        android:id="@+id/imImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/imImageView"
+        app:srcCompat="@drawable/sobre"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
